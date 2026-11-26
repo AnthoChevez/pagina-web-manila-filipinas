@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pon a prueba tus conocimientos sobre Manila.">
+    <title>Sitio Web Manila Filipinas - Evaluación</title>
+    <link href="css/estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html" class="brand">
+                <span class="brand-mark">M</span>
+                <span>Manila<span class="brand-dot">.</span></span>
+            </a>
+        </div>
+        <h1>Evaluación de Manila</h1>
+        <h2 class="destacado">Comprueba lo que aprendiste</h2>
+        <h4 id="favorito">Cinco preguntas con resultado inmediato</h4>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="evaluacion.html" class="active">Evaluación</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <main>
+            <section>
+                <article>
+                    <h2>Evalúa tu viaje a Manila</h2>
+                    <p>
+                        Responde las cinco preguntas. Tu resultado se actualizará al instante.
+                    </p>
+
+                    <form class="quiz-form" id="quiz-form">
+                        <fieldset>
+                            <legend><span>01</span> ¿En qué país se encuentra Manila?</legend>
+                            <label><input type="radio" name="q1" value="correct"> Filipinas</label>
+                            <label><input type="radio" name="q1" value="wrong"> Tailandia</label>
+                            <label><input type="radio" name="q1" value="wrong"> Vietnam</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><span>02</span> ¿Cuál es la moneda oficial?</legend>
+                            <label><input type="radio" name="q2" value="wrong"> Yen japonés</label>
+                            <label><input type="radio" name="q2" value="correct"> Peso filipino</label>
+                            <label><input type="radio" name="q2" value="wrong"> Dólar de Singapur</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><span>03</span> ¿En qué isla está ubicada Manila?</legend>
+                            <label><input type="radio" name="q3" value="wrong"> Mindanao</label>
+                            <label><input type="radio" name="q3" value="wrong"> Palawan</label>
+                            <label><input type="radio" name="q3" value="correct"> Luzón</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><span>04</span> ¿Qué zona histórica está rodeada por murallas?</legend>
+                            <label><input type="radio" name="q4" value="correct"> Intramuros</label>
+                            <label><input type="radio" name="q4" value="wrong"> Makati</label>
+                            <label><input type="radio" name="q4" value="wrong"> Quezon City</label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><span>05</span> ¿Cuál es el huso horario de Manila?</legend>
+                            <label><input type="radio" name="q5" value="wrong"> UTC−5</label>
+                            <label><input type="radio" name="q5" value="correct"> UTC+8</label>
+                            <label><input type="radio" name="q5" value="wrong"> UTC+1</label>
+                        </fieldset>
+
+                        <div class="quiz-actions">
+                            <button class="button" type="submit">Ver resultado</button>
+                            <button class="button button-secondary" type="reset">Reiniciar</button>
+                        </div>
+                        <output class="result-box" id="quiz-result" aria-live="polite">
+                            Selecciona tus respuestas para conocer tu puntuación.
+                        </output>
+                    </form>
+                </article>
+            </section>
+        </main>
+
+        <aside>
+            <h3>¿Ya visitaste las otras páginas?</h3>
+            <p>
+                Revisa la información de inicio y las postales de la galería antes de responder.
+            </p>
+            <p>
+                <a href="index.html">Volver al inicio</a>
+            </p>
+            <p style="font-size: 13px; color: #555;">
+                Desarrollado para la materia Programación y Plataformas Web.
+            </p>
+        </aside>
+    </div>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
+            </li>
+        </ul>
+        <p>&copy; 2026 Blog interactivo de Manila | Fecha de actualización: noviembre de 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
